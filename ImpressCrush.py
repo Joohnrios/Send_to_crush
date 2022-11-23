@@ -10,6 +10,8 @@ begin_fill()
 turtle.write('Your crush!', move=False, font=(
     'Comic Sans', 18, 'bold'), align='center')
 
+tela = turtle.Screen()
+tela.bgpic("backgroundRainWithFlowers.gif")
 
 turtle.sety(-90)
 
